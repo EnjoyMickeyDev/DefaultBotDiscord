@@ -8,6 +8,12 @@
 
 > Готово.
 
+[ИНФОРМАЦИЯ]
+
+1. Данный бот по дефолту поддерживает `/`  слэш команды.
+2. По умолчанию включена поддержка автоматического шардирование.
+3. Подключены коги.
+
 [EN] Download the repository.
 
 1. Install the required libraries.
@@ -15,3 +21,9 @@
 3. Run 'main.py'.
 
 > Done.
+
+[INFO]
+
+1. This bot supports `/` slash commands by default.
+2. By default, Auto-sharding support is enabled.
+3. Cogs are connected.
