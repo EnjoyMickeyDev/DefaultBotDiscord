@@ -18,10 +18,10 @@ class DefaultBotDiscord(commands.AutoShardedInteractionBot):
         self.developer = "Sabrina Spellman#0001"
 
     def load_extensions(self):
-            for filename in os.listdir("./extensions"):
-                if filename.endswith(".py"):
-                    try:
-                        self.load_extension(f"extensions.{filename[:-3]}")
-                        print(f'[Extensions]: {filename} loaded...')
-                    except Exception as e:
-                        print(e)
+        for filename in os.listdir("./extensions"):
+            if filename.endswith(".py"):
+                try:
+                    self.load_extension(f"extensions.{filename[:-3]}")
+                    print(f'[Extensions]: {filename} loaded...')
+                except Exception as e:
+                    print(e)
