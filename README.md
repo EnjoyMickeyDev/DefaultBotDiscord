@@ -6,7 +6,7 @@
 2. Укажите токен вашего бота.
 3. Запустите 'main.py'.
 
->> Готово.
+> Готово.
 
 [EN] Download the repository.
 
@@ -14,4 +14,4 @@
 2. Specify your bot's token.
 3. Run 'main.py'.
 
->> Done.
+> Done.
