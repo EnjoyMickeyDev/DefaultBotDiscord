@@ -16,6 +16,7 @@ class DefaultBotDiscord(commands.AutoShardedInteractionBot):
             ),
         )
         self.developer = "Sabrina Spellman#0001"
+        self.support = "https://discord.gg/develop-sleep-889097521207603221"
 
     def load_extensions(self):
         for filename in os.listdir("./extensions"):
